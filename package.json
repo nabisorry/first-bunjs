@@ -2,6 +2,9 @@
   "name": "first-bunjs",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.tsx"
+  },
   "devDependencies": {
     "@types/react-dom": "^18.2.14",
     "bun-types": "latest"
